@@ -72,5 +72,6 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
     def test_tuloste(self):
+        # tulosteen pitäisi olla tämä
         oikea = "saldo = 0, vielä tilaa 10"
         self.assertEqual(self.varasto.__str__(), oikea)
