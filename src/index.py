@@ -28,8 +28,6 @@ def main():
           f"\nMehuvarasto: {mehua}\nmehua.otaVarastosta(-32.9)"
           f"\nsaatiin {mehua.ota_varastosta(-32.9)}\nMehuvarasto: {mehua}")
 
-    print("extra row that breaks pylint")
-
 
 if __name__ == "__main__":
     main()
